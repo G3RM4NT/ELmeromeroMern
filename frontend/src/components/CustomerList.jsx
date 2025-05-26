@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getCustomers, deleteCustomer } from '../services/customerService.jsx';
+import { getCustomers, deleteCustomer } from '../services/CustomerService.jsx';
 import { Link } from 'react-router-dom';
 import { FaUserCircle, FaEdit, FaTrash } from 'react-icons/fa';
 

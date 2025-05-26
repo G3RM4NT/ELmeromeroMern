@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { createCustomer, getCustomer, updateCustomer } from '../services/customerService';
+import { createCustomer, getCustomer, updateCustomer } from '../services/CustomerService';
 import { useNavigate, useParams } from 'react-router-dom';
 
 const styles = {

@@ -8,7 +8,7 @@ export default function Navbar() {
   // Define las rutas y títulos (puedes cambiar el contador dinámicamente si quieres)
   const navItems = [
     { label: 'Clientes', path: '/customers',  },
-    { label: 'Empleados', path: '/employees' },
+    { label: 'Empleados', path: '/employee' },
     { label: 'Productos', path: '/products' }
   ];
 
