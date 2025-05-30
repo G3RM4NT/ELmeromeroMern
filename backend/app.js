@@ -22,7 +22,13 @@ const app = express();
 app.use(express.json());
 //Que postman acepte guardar cookies
 app.use(cookieParser());
-app.use(cors());
+app.use(
+    cors({
+      origin: "https://e-lmeromero-mern.vercel.app",
+      // Permitir envío de cookies y credenciales
+      credentials: true
+    })
+  );
 
 
 // Definir las rutas de las funciones que tendrá la página web
