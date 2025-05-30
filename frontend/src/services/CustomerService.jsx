@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = 'http://localhost:4000/api/customers';
+const API = 'https://elmeromeromern.onrender.com/api/customers';
 
 // Obtener todos los customers (GET /api/customers)
 export const getCustomers = () => axios.get(API);

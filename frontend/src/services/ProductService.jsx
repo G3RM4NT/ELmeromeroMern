@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API = 'http://localhost:4000/api/products';
+const API = 'https://elmeromeromern.onrender.com/api/products';
 
 export const getProducts = () => axios.get(API);
 export const getProduct = (id) => axios.get(`${API}/${id}`);
