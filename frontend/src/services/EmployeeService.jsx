@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API = 'http://localhost:4000/api/employee';
+const API = 'https://elmeromeromern.onrender.com/api/employee';
 
 export const getEmployees = () => axios.get(API);
 export const getEmployee = (id) => axios.get(`${API}/${id}`);
